@@ -5,5 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class CountersService {
 
+  countToActive = 0;
+  countToInactive = 0;
+
   constructor() { }
 }

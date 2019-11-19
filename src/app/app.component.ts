@@ -12,11 +12,4 @@ export class AppComponent {
   constructor(private usersService: UsersService,
               private counterService: CountersService) {}
 
-  onSetToInactive(id: number) {
-    this.usersService.onSetToInactive(id);
-  }
-
-  onSetToActive(id: number) {
-    this.usersService.onSetToActive(id);
-  }
 }
